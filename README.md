@@ -22,13 +22,14 @@ El enfoque es **segmental**: cada vídeo se descompone en canales; los expertos 
 ## Estructura del repositorio
 
 TFM_EXIST_2025_David_Fernandez_Garcia/
-├─ segmentación/
-│ └─ python/ # Scripts para realizar la segmentación por canal
-├─ entrenamiento/ # Scripts para el entrenamiento de modelos por modalidad (texto/audio/vídeo)
-├─ combinación/
-│ └─ python/ # Mecanismos de fusión HARD/ SOFT y los resultados asociados a cada fusión
-├─ evaluacion/ # Ficheros necesarios para realizar la evaluación
-└─ results/ # Resultados de cada modelo individual al someterse al conjunto de train mediante evaluación cruzada
+|-- segmentación/
+|   `-- python/            # Scripts para realizar la segmentación por canal
+|-- entrenamiento/         # Scripts para el entrenamiento de modelos por modalidad (texto/audio/vídeo)
+|-- combinación/
+|   `-- python/            # Mecanismos de fusión HARD/ SOFT y los resultados asociados a cada fusión
+|-- evaluacion/            # Ficheros necesarios para realizar la evaluación
+`-- results/               # Resultados de cada modelo individual al someterse al conjunto de train mediante evaluación cruzada
+
 
 
 > **Nota**: ajusta rutas y nombres a tus scripts reales.
