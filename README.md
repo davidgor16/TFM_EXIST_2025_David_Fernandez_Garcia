@@ -23,20 +23,11 @@ El enfoque es **segmental**: cada vídeo se descompone en canales; los expertos 
 
 TFM_EXIST_2025_David_Fernandez_Garcia/
 
-├── segmentación/
-    
-│   └── python/            # Scripts para realizar la segmentación por canal
-
-├── entrenamiento/         # Entrenamiento por modalidad (texto/audio/vídeo), logs y checkpoints
-
-├── combinación/
-    
-│   └── python/            # Mecanismos de fusión HARD/ SOFT y resultados por fusión
-
-├── evaluacion/            # Ficheros necesarios para evaluación
-
-└── results/               # Resultados por modelo tras CV en train
-
+- **segmentación/python/** — scripts para realizar la segmentación por canal.  
+- **entrenamiento/** — scripts para el entrenamiento de modelos por modalidad (texto/audio/vídeo).  
+- **combinación/python/** — mecanismos de fusión HARD/SOFT y resultados asociados a cada fusión.  
+- **evaluacion/** — ficheros necesarios para realizar la evaluación.  
+- **results/** — resultados de cada modelo individual tras evaluación cruzada sobre el conjunto de train.  
 
 
 > **Nota**: ajusta rutas y nombres a tus scripts reales.
